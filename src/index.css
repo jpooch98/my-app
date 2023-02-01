@@ -23,7 +23,7 @@ body {
     }
 }
 
-.center{
+.center {
     text-align: center;
     padding-top: 50px;
 }
@@ -33,6 +33,7 @@ body {
     border-radius: 1rem;
     padding: 2rem;
     text-align: center;
+    position: relative;
 }
 
 .Book img {
@@ -43,4 +44,17 @@ body {
 .Book h1 {
     margin-top: 1rem;
     font-size: 2rem;
+}
+
+.number {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: red;
+    color: white;
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: .75rem;
 }
